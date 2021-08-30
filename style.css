@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.artical {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+#Scarecrow {
+    width: 53.9%;
+    height: auto;
+}
+
+.contaner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    height: auto;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+h3 {
+    width: 50%;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+h4 {
+    margin: 15px 50px;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+#button {
+    text-transform: capitalize;
+    margin-top: 7%;
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 425px) {
+    #Scarecrow {
+        width: 100%;
+        height: auto;
+    }
+    .contaner {
+        display: block;
+    }
+}
